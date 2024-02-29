@@ -1,128 +1,104 @@
 .leaf {
-    border: 1px solid;
-    width: 50%;
-    height: 50%;
-    
-
-
-
+  width: 1px;
+  height: 1px;
+  align-content: last baseline;
+  border-right: 8%;
 }
 
-#container{
-display: flex;
-border: 1px solid;
-justify-content: space-around;
-width: 10px;
-min-height: 30px;
-margin: 20px;
-
-    
-
+.leaf2 {
+  width: 500px;
 }
 
-.navbar{
-    
-    display: flex;
-    justify-content: space-between;
-    font-display: inherit;
 
+.navbar {
+  text-align: center;
 }
 
-#Start{
-    border: 1px solid ;
-    justify-content: space-between;
-    
-
+.main {
+  display: grid;
+  /* grid-template-rows: auto; */
+  grid-template-columns: repeat(4, 1fr);
+   border: solid 1px;
 }
 
-.span{
 
 
+.span {
+  display: grid;
+ 
+  grid-template-columns: repeat(4, 1fr);
+  border: solid 1px;
+} 
+.IKEA {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.IKEA{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-    
-
+.DIPTYQUE {
+  font-family: "Times New Roman", Times, serif;
 }
-.DIPTYQUE{
-    font-family: 'Times New Roman', Times, serif
-
+.DESENIO {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.DESENIO{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-
+.benito {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif font;
 }
-.benito{
-
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-    font
+.WETWIC {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-.WETWIC{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-}
-.flexbox{
-    display:flex;
-    justify-content: space-between;
-    width: 50px;
-    border: 1px solid;
-    border-block: 10px;
-    padding: 20% 20%;
-
-
+.flexbox {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(4, 1fr);
+  border: solid 1px;
 }
 
-.cards{
-    display: flex;
-    border: 2px solid;
-    flex-flow: column;
-    
-    
-     
-    
-
-}
-.conslusion{
-    align-content: center;
-
-}
-.Review{
-    align-content: center;
-    text-justify: distribute;
-    text-size-adjust: inherit;
-    font-style: italic;
-    font: bolder;
-
-
-}
-.flexbox2{
-    display: inline;
-
-}
-.flexbox3{
-    display: flex;
-    
+.cards {
+  display: grid;
+grid-template-columns: repeat(4,1fr);
+  /* border: solid 1px; */
 }
 
-.flexbox4{
-    direction: grid;
-    grid-template-columns: 50%;
-
+.room vase {
+  width: 50%;
+  border-left: 100%;
+  height: 100%;
+  padding: 50%;
+  align-content: flex-end;
 }
-.flexbox5{
-    grid-template-areas: inherit;
-    padding: 20% 20%;
-    margin: auto;
-    width: 30px;
-    min-height: auto;
-    border-top-left-radius: 1px;
-
+.conslusion {
+  align-content: center;
 }
-.footer{
-    font: display 20px;
-    font-weight: 400;
-
+.Review {
+  align-content: center;
+  text-justify: distribute;
+  text-size-adjust: inherit;
+  font-style: italic;
+  font: bolder;
 }
-#icons{
-    display: flex;
+.flexbox2 {
+  display: inline;
+}
+.flexbox3 {
+  display: grid;
+}
+
+.flexbox4 {
+  direction: grid;
+  grid-template-columns: 50%;
+}
+.flexbox5 {
+  grid-template-areas: inherit;
+  padding: 20% 20%;
+  margin: auto;
+  width: 30px;
+  min-height: auto;
+  border-top-left-radius: 1px;
+}
+.footer {
+  font: display 20px;
+  font-weight: 400;
+}
+#icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
